@@ -5,12 +5,20 @@
 // var qualquerCoisa = 'felipe'
 // var Qualquer_coisa = 'felipe'
 
-//var nomep = 'Felipe';
+var nomep = 'Felipe';
 
-// console.log(nome)
+nomep = 123
+
+console.log(nomep)
+
 
 let nome = 'Fábio Lima'
 let idade = 18
+
+console.log(nome, idade)
+
+nome = 'Maria'
+idade = 20
 
 console.log(nome, idade)
 
