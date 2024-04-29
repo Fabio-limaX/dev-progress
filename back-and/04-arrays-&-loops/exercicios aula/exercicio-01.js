@@ -8,16 +8,16 @@
 // 8. Imprima o país de índece 2 na tela
 
 
-const nomesPaises = ['Brasil', 'Argentina', 'França', 'USA', 'Russia']
+const paises = ['Brasil', 'Argentina', 'França', 'EUA', 'Russia']
 
-nomesPaises[nomesPaises.length] = 'Alemanha'
+paises[paises.length] = 'Alemanha'
 
-console.log(nomesPaises)
+console.log(paises)
 
-nomesPaises[4] = 'Polonia'
+paises[4] = 'Polonia'
 
-console.log(nomesPaises)
+console.log(paises)
 
-console.log(nomesPaises[5])
-console.log(nomesPaises[1])
-console.log(nomesPaises[2])
+console.log(paises[paises.length - 1])
+console.log(paises[1])
+console.log(paises[2])
