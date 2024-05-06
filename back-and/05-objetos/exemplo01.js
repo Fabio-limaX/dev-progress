@@ -9,6 +9,12 @@ const usuario = {
     habilidades: ['JS', 'PHP', 'Java', 'HTML']
 }
 
-console.log(['nome'][2])
+// usuario['nome'][2] ==> acessa uma propriedade de um objeto
+// usuario.nome ==> acessa uma propriedade de um objeto
+// usuario['teste'] ==> retorna underfined pois a propriedade não foi definida
 
-console.log(usuario)
+usuario.nome = 'Fábio lima'
+
+usuario.email = 'Fabio@gmail.com'
+
+console.log(`Meu nome é ${usuario.nome} e tenho ${usuario.Idade} anos.`)
