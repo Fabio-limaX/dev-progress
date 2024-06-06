@@ -9,14 +9,13 @@ function saudacao(nome: string, idade: number) {
 }
 
 const fabio: TPessoa = {
-    nome: 'Fabio',
-    idade: 18
+    nome: 'Fabio'
 }
 
 const felipe: TPessoa = {
     nome: 'Felipe',
     idade: 19,
-    email: 'Fabio'
+    email: 'felipe@gmail.com'
 }
 
 console.log('idade' in fabio) // Utilizar o (in) para fazer uma verificação de elemento se é true ou false
