@@ -5,9 +5,9 @@ Bem-vindo ao meu repositório de estudos na Cubos Academy! Aqui, você encontrar
 ## Sobre este Repositório
 Este repositório foi criado com o objetivo de:
 
--Documentar minha evolução: Cada commit e cada projeto refletem um passo no meu caminho de aprendizado.
--Compartilhar conhecimento: Espero que outros estudantes possam se beneficiar dos exemplos e soluções aqui apresentados.
--Receber feedback: Comentários e sugestões são sempre bem-vindos para me ajudar a melhorar continuamente.
+- Documentar minha evolução: Cada commit e cada projeto refletem um passo no meu caminho de aprendizado.
+- Compartilhar conhecimento: Espero que outros estudantes possam se beneficiar dos exemplos e soluções aqui apresentados.
+- Receber feedback: Comentários e sugestões são sempre bem-vindos para me ajudar a melhorar continuamente.
 
 ## Estrutura do Repositório
 
