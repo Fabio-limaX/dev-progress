@@ -15,3 +15,4 @@ export const intermediarioGeral = (req: Request, res: Response, next: NextFuncti
 
 	next()
 }
+

@@ -8,7 +8,7 @@ const pessoas = [
 
 export const itemProdutos =  (req: Request, res: Response) => {
     console.log(req.params.item)
-    return res.send('Server is configured with typescript')
+    return res.send('Cheguei no controlador')
 }
 
 
