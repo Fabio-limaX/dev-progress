@@ -1,8 +1,10 @@
 import 'dotenv/config'
-import Express  from "express";
+import express  from "express";
 import rotas from './rotas';
 
-const app = Express()
+const app = express()
+
+app.use(express.json())
 
 app.use(rotas)
 
