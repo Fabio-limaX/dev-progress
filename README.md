@@ -13,6 +13,36 @@ Este repositório foi criado com o objetivo de:
 
 A estrutura do repositório está organizada por módulos e tópicos abordados na Cubos Academy. Cada pasta contém materiais específicos relacionados a um determinado tema ou projeto. Abaixo está um exemplo de como os conteúdos estão organizados:
 
+## Tecnologias Utilizadas
+Durante o curso, estou explorando uma variedade de tecnologias e ferramentas. Algumas das principais incluem:
+
+- JavaScript: Linguagem de programação central para o desenvolvimento front-end e back-end.
+- HTML & CSS: Tecnologias básicas para construção de páginas web.
+- Node.js: Ambiente de execução para JavaScript no lado do servidor.
+- React: Biblioteca JavaScript para construção de interfaces de usuário.
+- Express: Framework para Node.js que facilita a criação de APIs.
+- Banco de Dados: MongoDB, PostgreSQL e outros sistemas de gerenciamento de banco de dados.
+
+## Como Contribuir
+Se você deseja contribuir para este repositório, sinta-se à vontade para abrir uma issue ou enviar um pull request. Todos os tipos de contribuições são bem-vindos, incluindo correções de bugs, melhorias na documentação e novas funcionalidades.
+
+## Contato
+Se você tiver alguma dúvida ou sugestão, pode me contatar pelo email [] ou conectar-se comigo no [LinkedIn].
+
+Agradeço por visitar meu repositório e acompanhar minha jornada de aprendizado na Cubos Academy!
+
+Cubos Academy é uma instituição de ensino que se dedica a formar desenvolvedores de software competentes e preparados para o mercado de trabalho. Para mais informações, visite o site da Cubos Academy.
+
+
+Nota: Este repositório é de uso pessoal e não é afiliado oficialmente à Cubos Academy.
+
+Espero que este repositório seja útil para você tanto quanto é para mim! Feliz aprendizado! 🚀
+
+
+
+
+
+
 
 
 
