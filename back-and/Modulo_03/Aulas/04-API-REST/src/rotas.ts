@@ -1,13 +1,13 @@
 import { Router } from "express";
-import { listar } from "./controladores/instrutores";
+import { detalhar, listar } from "./controladores/instrutores";
 
 
 const rotas = Router()
 
 rotas.get('/instrutores', listar) // Listar todos os intrutores
 
+rotas.get('/instrutores/:id', detalhar) // detalhar as informações de um instrutor
 
-// detalhar as informações de um instrutor
 // cadastrar instrutor 
 // editar um istrutor 
 // excluir um instrutor
