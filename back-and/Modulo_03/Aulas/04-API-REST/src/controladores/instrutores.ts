@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 type TIstrutores = {
     id: number
     nome: string
-    gmail: string
+    email: string
 }
 
 
@@ -11,17 +11,17 @@ const instrutores: TIstrutores[] = [
     {
         id: 1,
         nome: 'Fabio',
-        gmail: 'fabio@gmail.com'
+        email: 'fabio@gmail.com'
     },
     {
         id: 2,
         nome: 'Ana',
-        gmail: 'Ana@gmail.com'
+        email: 'Ana@gmail.com'
     },
     {
         id: 3,
         nome: 'Paulo',
-        gmail: 'paulo@gmail.com'
+        email: 'paulo@gmail.com'
     }
 ]
 
@@ -43,4 +43,18 @@ export function detalhar (req: Request, res: Response) {
     }
 
     return res.status(200).json(instrutores)
+}
+
+export function cadastrar (req: Request, res: Response) {
+    const { nome, email } = req.body
+
+    const novoInstrutor = {
+        id: 4,
+        nome,
+        email
+    }
+    
+    instrutores.push(novoInstrutor)
+
+    return res.status(201).json({novoInstrutor})
 }
