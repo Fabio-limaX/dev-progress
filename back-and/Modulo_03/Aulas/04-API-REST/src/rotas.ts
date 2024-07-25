@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { cadastrar, detalhar, editar, listar } from "./controladores/instrutores";
+import { cadastrar, deletarInstrutor, detalhar, editar, listar } from "./controladores/instrutores";
 
 
 const rotas = Router()
@@ -12,7 +12,7 @@ rotas.post('/instrutores', cadastrar) // cadastrar instrutor
 
 rotas.put('/instrutores/:id', editar)// editar um istrutor 
 
-// excluir um instrutor
+rotas.delete('/instrutores/id', deletarInstrutor)// excluir um instrutor
 
 // cadastrar uma aula para um instrutor 
 // excluir uma aula para um instrutorn

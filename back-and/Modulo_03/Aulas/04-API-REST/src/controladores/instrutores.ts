@@ -80,3 +80,21 @@ export function editar (req: Request, res: Response) {
 
     return res.status(204).send()
 }
+
+export function deletarInstrutor (req: Request, res: Response) {
+    const { id } = req.params
+
+    const instrutorIndice = instrutores.findIndex((item) => {
+        return item.id === Number(id)
+    })
+
+    if (instrutorIndice === -1) {
+        return res.status(404).json({
+            mensagem: 'Instrutor não encontrado'
+        })
+    }
+    
+    instrutores.splice(instrutorIndice, 1)
+
+    return res.status(204).send()
+}
