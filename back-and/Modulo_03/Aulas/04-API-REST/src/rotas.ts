@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { cadastrar, deletarInstrutor, detalhar, editar, listar } from "./controladores/instrutores";
+import { cadastrar, deletarInstrutor, detalhar, editar, editarEmail, listar } from "./controladores/instrutores";
 
 
 const rotas = Router()
@@ -10,7 +10,8 @@ rotas.get('/instrutores/:id', detalhar) // detalhar as informações de um instr
 
 rotas.post('/instrutores', cadastrar) // cadastrar instrutor 
 
-rotas.put('/instrutores/:id', editar)// editar um istrutor 
+rotas.put('/instrutores/:id', editar)// editar um istrutor
+rotas.patch('/instrutor/:id/alterarEmail', editarEmail) 
 
 rotas.delete('/instrutores/id', deletarInstrutor)// excluir um instrutor
 

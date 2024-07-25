@@ -81,6 +81,25 @@ export function editar (req: Request, res: Response) {
     return res.status(204).send()
 }
 
+export function editarEmail (req: Request, res: Response) {
+    const { id } = req.params
+    const { email } = req.body
+
+    const instrutor = instrutores.find((item) => {
+        return item.id === Number(id)
+    })
+
+    if (!instrutor) {
+        return res.status(404).json({
+            mensagem: 'Instrutor não encontrado'
+        })
+    }
+    
+    instrutor.email = email
+
+    return res.status(204).send()
+}
+
 export function deletarInstrutor (req: Request, res: Response) {
     const { id } = req.params
 
