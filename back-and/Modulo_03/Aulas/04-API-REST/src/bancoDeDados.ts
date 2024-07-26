@@ -6,7 +6,7 @@ type TAulas = {
     nome: string
 }
 
-type TIstrutores = {
+type TInstrutores = {
     id: number
     nome: string
     email: string
@@ -16,12 +16,12 @@ type TIstrutores = {
 type TBancodedados = {
     proximoIdentificador: TIdentificador
     proximoIndentificadorAula: TIdentificador
-    instrutores: TIstrutores[]
+    instrutores: TInstrutores[]
 }
 
 const bancodedados: TBancodedados = {
-    proximoIdentificador: 4, 
-    proximoIndentificadorAula: 3,
+    proximoIdentificador: 3, 
+    proximoIndentificadorAula: 2,
     instrutores: [
         {
             id: 1,
@@ -35,12 +35,6 @@ const bancodedados: TBancodedados = {
             id: 2,
             nome: 'Ana',
             email: 'Ana@gmail.com',
-            aulas:[]
-        },
-        {
-            id: 3,
-            nome: 'Pedro',
-            email: 'pedro@gmail.com',
             aulas:[]
         }
     ]

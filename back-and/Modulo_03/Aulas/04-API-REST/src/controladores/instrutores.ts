@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import bancodedados from "../bancoDeDados";
 
-
 export function listar (req: Request, res: Response) {
     return res.status(200).json(bancodedados.instrutores)
 }
@@ -92,4 +91,3 @@ export function deletarInstrutor (req: Request, res: Response) {
 
     return res.status(204).send()
 }
-
