@@ -27,7 +27,7 @@ Durante o curso, estou explorando uma variedade de tecnologias e ferramentas. Al
 Se você deseja contribuir para este repositório, sinta-se à vontade para abrir uma issue ou enviar um pull request. Todos os tipos de contribuições são bem-vindos, incluindo correções de bugs, melhorias na documentação e novas funcionalidades.
 
 ## Contato
-Se você tiver alguma dúvida ou sugestão, pode me contatar pelo email [] ou conectar-se comigo no [LinkedIn].
+Se você tiver alguma dúvida ou sugestão, pode me contatar pelo email [fabiolimadesenvolvedor@gmail.com] ou conectar-se comigo no [LinkedIn].
 
 Agradeço por visitar meu repositório e acompanhar minha jornada de aprendizado na Cubos Academy!
 
