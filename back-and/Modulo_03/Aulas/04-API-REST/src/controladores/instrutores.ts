@@ -92,3 +92,4 @@ export function deletarInstrutor (req: Request, res: Response) {
 
     return res.status(204).send()
 }
+

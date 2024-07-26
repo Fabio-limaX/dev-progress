@@ -1,4 +1,6 @@
 
+type TIdentificador = number
+
 type TAulas = {
     id: number
     nome: string
@@ -12,12 +14,14 @@ type TIstrutores = {
 }
 
 type TBancodedados = {
-    proximoIdentificador: number
+    proximoIdentificador: TIdentificador
+    proximoIndentificadorAula: TIdentificador
     instrutores: TIstrutores[]
 }
 
 const bancodedados: TBancodedados = {
     proximoIdentificador: 4, 
+    proximoIndentificadorAula: 3,
     instrutores: [
         {
             id: 1,
