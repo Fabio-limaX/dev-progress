@@ -6,7 +6,7 @@ type TCarro = {
     potencia?: number
 }
 
-class Carro {
+class Carro{
     cor: string 
     marca: string 
     modelo: string 
@@ -39,35 +39,3 @@ class Carro {
     }
 
 }
-
-const novoCarro = {
-    cor: 'Preto',
-    ano: 1970,
-    marca: 'Volkswagen',
-    modelo: 'Fusca',
-    potencia: 120
-}
-
-const fusca = new Carro(novoCarro)
-
-console.log(fusca);
-
-fusca.cor = 'Branco' // Alterando atributo da classe
-
-console.log(fusca);
-
-console.log(fusca.estadoDoCarro());
-
-fusca.ligarOuDesligar()
-
-console.log(fusca);
-
-console.log(fusca.estadoDoCarro());
-
-fusca.acelerar(10)
-fusca.acelerar(10)
-fusca.acelerar(10)
-fusca.acelerar(10)
-
-console.log(fusca);
-

@@ -6,19 +6,19 @@ type TCarro = {
     potencia?: number
 }
 
-class Carro1 {
+class Carro {
     cor: string 
     marca: string 
     modelo: string 
     ano: number 
     potencia: number 
 
-    constructor (Carro1: TCarro) {
-        this.cor = Carro1.cor
-        this.marca = Carro1.marca
-        this.modelo = Carro1.modelo
-        this.ano = Carro1.ano
-        this.potencia = Carro1.potencia ?? 90
+    constructor (Carro: TCarro) {
+        this.cor = Carro.cor
+        this.marca = Carro.marca
+        this.modelo = Carro.modelo
+        this.ano = Carro.ano
+        this.potencia = Carro.potencia ?? 90
     }
 
 }
@@ -31,7 +31,7 @@ const novoCarro = {
     potencia: 120
 }
 
-const Fusca = new Carro1(novoCarro)
+const fusca = new Carro(novoCarro)
 
 console.log(fusca);
 
