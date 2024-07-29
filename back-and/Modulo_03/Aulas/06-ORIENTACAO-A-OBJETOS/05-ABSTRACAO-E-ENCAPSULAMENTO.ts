@@ -75,6 +75,3 @@ palio.acelerar(20)
 palio.acelerar(30)
 palio.ligarOuDesligar
 console.log(palio)
-
-
-
