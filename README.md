@@ -3,6 +3,7 @@
 
 Bem-vindo ao meu repositório de estudos na Cubos Academy! Aqui, você encontrará uma coleção de projetos, exercícios e anotações que documentam minha jornada de aprendizado e evolução em diversas disciplinas de tecnologia. Este repositório serve como um diário de bordo do meu desenvolvimento, onde compartilho minhas conquistas, desafios e progressos ao longo do curso.
 
+
 ## Sobre este Repositório
 
                                      
