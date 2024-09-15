@@ -1,4 +1,4 @@
-# Meu Repositório de Estudos no Boot Camp da Cubos Academy
+# Meu Repositório de Estudos no Boot Camp da Cubos A
 
 
 
